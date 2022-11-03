@@ -1,0 +1,11 @@
+{
+    "books":[
+        {
+            "id":1,
+            "name":"Jhon Dies at the End",
+            "price":"135",
+            "author":"David Wong"
+            "img_url":"assets/image/books1.jpg"
+        }
+    ]
+}

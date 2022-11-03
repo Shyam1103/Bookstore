@@ -1,0 +1,136 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/signup.css">
+  <title>Bookstore</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a href="#" class="logo"> <i class="fa-solid fa-book text-white"></i>Bookly</a>
+      <button id="menu" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About us</a>
+          </li>
+              <li class="nav-item">
+                <a class="nav-link" href="books.html">Books</a>
+              </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="singup.html">singup</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- SINGUP STARTED -->
+      <section>
+       <div class="login-form">
+          <h3 class="login text-center mt-2 mb-4">Signup Here !</h3>
+        <div class="container">
+        <form class="row"  id="sign" onsubmit="signup(this)">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email1" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="pass1" id="exampleFormControlInput1" placeholder="***********">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="examplecheck1">
+            <label class="form-check-label" for="examplecheck1">Check me out</label>
+          </div>
+          <button type="submit" id="submit1" class=" btn col-lg-12 mt-2 mb-3">submit</button>
+        </form>
+        </div>
+        </div>
+      </section>
+
+    <!-- SINGUP ENDED -->
+
+
+      <!-- footer started -->
+ <container class="footer">
+    <div class="container">
+      <div class="row px-5">
+        <div class="col-md-3">
+          <div class="box">
+            <h4>Our Location</h4>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i>Maharashtra</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i>Gujarat</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i>Delhi</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i>West Bengal</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="box">
+            <h4>Quick Links</h4>
+            <a href="index.html"> <i class="fas fa-arrow-right"></i>Home</a>
+            <a href="about.html"> <i class="fas fa-arrow-right"></i>About Us</a>
+            <a href="contact.html"> <i class="fas fa-arrow-right"></i>Contact Us</a>
+            <a href="books.html"> <i class="fas fa-arrow-right"></i>Books</a>
+            <a href="service.html"> <i class="fas fa-arrow-right"></i>Service</a>
+            <a href="login.html"> <i class="fas fa-arrow-right"></i>Login</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="box">
+            <h4>Contact Info</h4>
+            <a href="#"><i class="fa-solid fa-location-dot"></i>Paradise Silver , 105 ,<br> Thane(W)-400604.</a>
+            <a href="#"><i class="fa-solid fa-phone mt-3"></i>91+ 1234567892</a>
+            <a href="#"><i class="fa-solid fa-envelope mt-3"></i>bookstore@gmail.com</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="box">
+            <h4>Links</h4>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="credit">Created By <span>Mr. Shyam</span> | © copy rights reserved</div>
+    </div>
+ </container>
+
+  <!-- footer ended -->
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ <script src="assets/js/signup.js"></script>
+
+
+</body>
+</html>
